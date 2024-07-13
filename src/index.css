@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary: #1a1a1a;
+  --secondry: #f2f2f2;
+  --primary-texy:#1a1a1a;
+  --secondry-text: #f2f2f2;
 }
+/* :root {
+  --primary: #f2f2f2;
+  --secondry: #1a1a1a;
+  --primary-texy:#f2f2f2;
+  --secondry-text: #1a1a1a;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.marque{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.12) 50%, rgba(255, 255, 255, 0.2) 100%);
+}
+/* .aboutme{
+  cursor: pointer;
+}
+ .aboutme:hover .aboutme-text{
+  animation-name: aboutme;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+} 
+
+@keyframes aboutme{
+  from{
+    transform: translateY(0%);
+  }
+  to{
+    transform: translateY(-100%);
+  }} */
+
+  .circle-ball{
+    mix-blend-mode: difference !important;
+    pointer-events: none !important;
+  }
+
+  .ff{overflow: hidden !important;}
+
+  .elem-hover{pointer-events: none;}
+
+  .ff{
+    mix-blend-mode: difference;
+  }
+
+
+  @media screen and (max-width: 1348px) {
+    
+  }
