@@ -36,8 +36,7 @@ export const elementdata = [
         "brand": "FUT NEXT",
         "branddesc": "Developed a clean and responsive UI for FUT NEXT, enhancing user interaction and overall experience.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, Next js and (some other libraries)",
-        //  "hoverimg": "./assets/futtnextlogo.svg",
-         "hoverimg": "https://www.futnext.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.7ccbcd52.png&w=48&q=75",
+         "hoverimg": "./assets/futtnextlogo.svg",
          "websitelink": "https://www.futnext.com/",
     },
 ]
