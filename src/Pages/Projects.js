@@ -11,7 +11,7 @@ function Projects() {
             return(
              <a target='blank' href={e.websitelink}>
                 <div className="element h-[120px] w-[100%] border-b border-b-[1px] border-b-[--primary-text] -bg-[red] px-[100px] relative">
-        <div className='elem-hover picture h-[280px] -bg-[white] border-[none] rounded-[10px] w-[230px] opacity-[0] fixed z-[20] left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%]'>
+        <div className='elem-hover picture h-[280px] bg-[white] border-[none] rounded-[10px] w-[230px] opacity-[0] fixed z-[20] left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%]'>
            <img className='h-[100%] w-[100%]  object-contain ' src={e.hoverimg} alt="Brand image" />
         </div>
         <div className="left -bg-[blue] h-[100%] flex justify-between items-center">
