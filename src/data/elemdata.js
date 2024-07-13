@@ -26,18 +26,17 @@ export const elementdata = [
     {
         "id": 4,
         "brand": "QRUIL",
-        "branddesc": "One of the greatest project i have ever done with USA client on fiverr.",
+        "branddesc": "One of the greatest project I have ever done with USA client on fiverr.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, React js and (some other libraries)",
-        "hoverimg": "./assets/qruillogo.svg",
-        "websitelink": "https://qruil.com/landing",
+        "hoverimg": "/assets/qruillogo.svg",
+        "websitelink": "https://qruil.com/landing"
     },
     {
         "id": 5,
         "brand": "FUT NEXT",
         "branddesc": "Developed a clean and responsive UI for FUT NEXT, enhancing user interaction and overall experience.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, Next js and (some other libraries)",
-        //  "hoverimg": "./assets/futtnextlogo.svg",
-         "hoverimg": "https://www.futnext.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.7ccbcd52.png&w=48&q=75",
-         "websitelink": "https://www.futnext.com/",
-    },
+        "hoverimg": "https://www.futnext.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.7ccbcd52.png&w=48&q=75",
+        "websitelink": "https://www.futnext.com/"
+    }
 ]
