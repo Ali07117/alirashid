@@ -1,4 +1,5 @@
 import React from 'react';
+import Eyes from '../Components/Eyes';
 
 function Footer() {
   return (
@@ -25,6 +26,7 @@ function Footer() {
             </span>
         </div>
     </div>
+    <Eyes/>
     <div className="footer-lower-section h-[350px] bg-[--primary] mt-[60px] flex justify-center items-center overflow-hidden">
     <p className='text-[17vw] font-[700] text-[--secondry-text]'>
         <span className='footer-logo inline-block'>A</span>

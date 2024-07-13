@@ -14,6 +14,8 @@ import Footer from './Pages/Footer';
 gsap.registerPlugin(ScrollTrigger)
 function App() {
   useEffect(() => {
+    var ddd = document.querySelector(".ddd")
+    var eyesBlackCircle = document.querySelector(".eyes-black-circle")
     var allProjectCircle = document.querySelector(".all-projects-circle")
     const lerp = (x, y, a) => x * (1 - a) + y * a;
     var hovertext = document.querySelector(".hover-text")
@@ -84,6 +86,27 @@ function App() {
       })
     })
     // --------------------------Ball---------------------
+    // ------------------eyes---------------
+    window.addEventListener("mousemove",function(dets){
+      var dims = eyesBlackCircle.getBoundingClientRect();
+      var xstart = dims.x;
+      var ystart = dims.y;
+      var xend = dims.x + dims.width;
+      var yend = dims.y + dims.height;
+      var zeroone = gsap.utils.mapRange(xstart, xend, 0, 1, dets.clientX);
+      var zerotwo = gsap.utils.mapRange(ystart, yend, 0, 1, dets.clientY);
+      gsap.to(".eyes-black-circle",{
+        x:lerp(-1, 1, zeroone),
+        y:lerp(-1, 1, zerotwo),
+        duration:0.5,
+      })
+      gsap.to(".eye-ball",{
+        x:lerp(-1.5, 1.5, zeroone),
+        y:lerp(-1.5, 1.5, zerotwo),
+        duration:0.5,
+      })
+    })
+    // ------------------eyes---------------
     // --------------------------Elem---------------------
     element.forEach(function(el){
     el.addEventListener("mousemove",function(dets){
@@ -131,11 +154,11 @@ function App() {
   },"a")
   tl.to(".loder-upper-container",{
     transform:"translateY(-120%)",
-    duration:1.6
+    duration:0.8
   },"b")
   tl.to(".loder-lower-container",{
     transform:"translateY(120%)",
-    duration:1.6
+    duration:0.8
   },"b")
 
 
