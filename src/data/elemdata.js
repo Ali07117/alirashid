@@ -5,7 +5,7 @@ export const elementdata = [
         "branddesc": "Greate animated project. Through this project, I've honed my skills in coding, design, and creating engaging user experences.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, React js, Smooth scroll and animated libraries",
         "hoverimg": "./assets/sundownlogo.svg",
-        "websitelink": "https://www.sundown-studio.com/",
+        "websitelink": "https://sundown-wine.vercel.app/",
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@ export const elementdata = [
         "branddesc": "Developed a dynamic, scroll-animated project Significo, showcasing innovative UI elements and seamless user interaction.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, React js, Scroll-base animation and Smooth scroll",
         "hoverimg": "./assets/significo.svg",
-        "websitelink": "https://www.significo.com/",
+        "websitelink": "https://significo-five.vercel.app/",
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@ export const elementdata = [
         "branddesc": "Created an engaging UI project McCann, Integrating modern design principles with intuitive user experience.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, React js, Scroll-base animation and Smooth scroll",
         "hoverimg": "./assets/mccannlogo.svg",
-        "websitelink": "https://www.mccann.fr/",
+        "websitelink": "https://mccann-seven.vercel.app/",
     },
     {
         "id": 4,
