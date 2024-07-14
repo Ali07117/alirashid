@@ -15,6 +15,8 @@ gsap.registerPlugin(ScrollTrigger)
 function App() {
   useEffect(() => {
     var ddd = document.querySelector(".ddd")
+    var burger = document.querySelector(".burger")
+    var sideNavClose = document.querySelector(".side-nav-close-arrow")
     var eyesBlackCircle = document.querySelector(".eyes-black-circle")
     var allProjectCircle = document.querySelector(".all-projects-circle")
     const lerp = (x, y, a) => x * (1 - a) + y * a;
@@ -86,7 +88,39 @@ function App() {
       })
     })
     // --------------------------Ball---------------------
+    // ---------------side-Nav---------------------
+
+    let tl2 = gsap.timeline()
+    tl2.to(".side-nav",{
+      transform:"translateX(0%)"
+    })
+    tl2.to(".status-box-sidebar",{
+      transform:"translateX(0%)",
+      duration:0.3
+    }) 
+    tl2.to(".location-box-sidebar",{
+      transform:"translateX(0%)",
+      duration:0.3
+    }) 
+    tl2.to(".sitemap-box-sidebar",{
+      transform:"translateX(0%)",
+      duration:0.3
+    }) 
+    tl2.to(".personal-links-sidebar",{
+      transform:"translateX(0%)",
+      duration:0.3
+    })
+    tl2.pause()
+    burger.addEventListener("click",function(){
+      tl2.play()
+    })
+    sideNavClose.addEventListener("click",function(){
+      tl2.reverse()
+    })
+    // ---------------side-Nav---------------------
+
     // ------------------eyes---------------
+
     window.addEventListener("mousemove",function(dets){
       var dims = eyesBlackCircle.getBoundingClientRect();
       var xstart = dims.x;
@@ -133,6 +167,7 @@ function App() {
 
   
   useGSAP(()=>{
+    
       gsap.to(".slide",{
       transform:"translateX(-100%)",
       repeat:-1,
@@ -168,15 +203,19 @@ function App() {
     })    
       tl.from(".sitemap-box",{
         y:-100,
+        duration:0.2,
     })    
       tl.from(".status-box",{
         y:-100,
+        duration:0.2,
     })    
       tl.from(".location-box",{
         y:-100,
+        duration:0.2,
     })    
       tl.from(".personal-links-box",{
         x:1000,
+        duration:0.2,
     })    
         
     tl.from(".freelancer-text",{
@@ -185,6 +224,7 @@ function App() {
   })    
   gsap.to(".text-show-1",{
     width:"100%",
+    stagger:0.6,
     scrollTrigger:{
       trigger:".expect-page",
       // markers:true,
@@ -195,9 +235,9 @@ function App() {
   })
   gsap.to(".text-show-2",{
     width:"100%",
+    stagger:0.6,
     scrollTrigger:{
       trigger:".expect-page",
-      // markers:true,
       start:"top 25%",
       end:"top 20%",
       scrub:2
@@ -205,6 +245,7 @@ function App() {
   })
   gsap.to(".text-show-3",{
     width:"100%",
+    stagger:0.6,
     scrollTrigger:{
       trigger:".expect-page",
       // markers:true,
@@ -257,13 +298,11 @@ function App() {
   gsap.from(".footer-logo",{
     y:300,
     opacity:0,
-    // duration:1,
     stagger:-0.05,
     scrollTrigger:{
       trigger:".footer-contact-container",
-      // markers:true,
-      start:"top 60%",
-      end:"top 42%",
+      start:"top 20%",
+      end:"top 7%",
       scrub:true
     }
   })

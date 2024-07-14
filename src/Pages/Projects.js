@@ -6,7 +6,7 @@ import { elementdata } from '../data/elemdata';
 function Projects() {
   return (
     <>
-    <div className='min-h-[100vh] w-[100%] pt-[80px] bg-[--secondry]  border-t-[2px]'>
+    <div className='min-h-[100vh] w-[100%] pt-[80px] bg-[--secondry]  '>
         {elementdata.map((e)=>{
             return(
              <a target='blank' href={e.websitelink}>
@@ -16,7 +16,7 @@ function Projects() {
         </div>
         <div className="left -bg-[blue] h-[100%] flex justify-between items-center">
           <p className='elem-brand-name w-[250px]  text-[--primary-text] font-[500] text-[40px]'>{e.brand}</p>
-           <p className='elem-brand-desc text-[--primary-text] w-[300px] font-[200] -bg-[yellow] text-center'>{e.branddesc}</p>
+           <p className='elem-brand-desc text-[--primary-text] h-[100%] flex items-center w-[300px] font-[200] text-ellipsis overflow-y-hidden -bg-[yellow] text-center'>{e.branddesc}</p>
            <p className='elem-brand-used text-[--primary-text] w-[200px] font-[200]  -bg-[yellow]'>{e.brandused}</p>
         </div>
         </div> 

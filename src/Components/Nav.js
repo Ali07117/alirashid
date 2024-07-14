@@ -3,13 +3,13 @@ import React from 'react';
 function Nav() {
   return (
     <>
-        <div className='h-[90px] w-[100%] flex justify-between items-center px-[40px]'>
+        <div className='h-[90px] web-nav w-[100%] flex justify-between items-center px-[40px]'>
         <div className="nav-left flex items-center gap-[120px]">
         <span className='leading-[30px] ali-rashid-logo circle-scale'>
-            <p className='text-[--secondry-text] dd text-[30px] ali-text -font-[quantico] font-[600]'>ALI RASHID</p>
-            <p className='text-[--secondry-text] dd text-[30px] portfolio-text -font-[quantico] font-[600]'>PORTFOLIO</p>
+            <p className='text-[--secondry-text] text-[30px] ali-text -font-[quantico] font-[600]'>ALI RASHID</p>
+            <p className='text-[--secondry-text] text-[30px] portfolio-text -font-[quantico] font-[600]'>PORTFOLIO</p>
             </span>
-            <span className='sitemap-box'>
+            <span className='sitemap-box '>
                 <i className='text-[--secondry-text] font-[]'>Sitemap:</i>
                 <div className='overflow-y-hidden -bg-[red] h-[25px] hover-text cursor-pointer'>
                 <p className='text-[--secondry-text] font-[500] aboutme -bg-[red]'>
@@ -44,6 +44,7 @@ function Nav() {
                 <p className='text-[--secondry-text] font-[500]'>Pakistan</p>
             </span>
             </div>
+            <img className='burger cursor-pointer h-[30px] pr-[10px] hidden' src="./assets/burger.svg" alt="" />
         </div>
     </>
   );
