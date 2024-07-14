@@ -114,7 +114,7 @@
 @media screen and (max-width: 1150px) {.footer-contact-container{width: 100%;}}
 @media screen and (max-width: 1022px) {.footer-upper-section{padding: 60px 40px;}}
 @media screen and (max-width: 600px) {.footer-contact-container{flex-direction: column; gap: 20px;}}
-@media screen and (max-width: 550px) {.footer-upper-section{padding: 60px 10px;} .footer-lower-section{height: 150px;}}
+@media screen and (max-width: 550px) {.footer-upper-section{padding: 60px 10px;} .footer-lower-section{height: 250px;}}
 @media screen and (max-width: 500px) {.footer-engaging-text{font-size: 35px;}}
 @media screen and (max-width: 390px) {.footer-engaging-text{font-size: 33px;}}
 

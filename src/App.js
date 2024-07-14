@@ -300,9 +300,10 @@ function App() {
     opacity:0,
     stagger:-0.05,
     scrollTrigger:{
-      trigger:".footer-contact-container",
-      start:"top 20%",
-      end:"top 7%",
+      // markers:true,
+      trigger:".footer-lower-section",
+      start:"top 80%",
+      end:"top 65%",
       scrub:true
     }
   })
