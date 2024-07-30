@@ -11,9 +11,11 @@ import Expect from './Pages/Expect';
 import Projects from './Pages/Projects';
 import SomeProjects from './Components/SomeProjects';
 import Footer from './Pages/Footer';
+import LocomotiveScroll from 'locomotive-scroll';
 gsap.registerPlugin(ScrollTrigger)
 function App() {
   useEffect(() => {
+    const locomotiveScroll = new LocomotiveScroll();
     var ddd = document.querySelector(".ddd")
     var burger = document.querySelector(".burger")
     var sideNavClose = document.querySelector(".side-nav-close-arrow")
