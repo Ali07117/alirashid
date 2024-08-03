@@ -5,7 +5,7 @@
 :root {
   --primary: #1a1a1a;
   --secondry: #f2f2f2;
-  --primary-texy:#1a1a1a;
+  --primary-text:#1a1a1a;
   --secondry-text: #f2f2f2;
 }
 /* :root {
@@ -132,3 +132,6 @@
 
 /* -----loader--------- */
 
+/* .skill-container{
+
+} */

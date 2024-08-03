@@ -4,7 +4,7 @@ import Nav from '../Components/Nav';
 function Home() {
   return (
     <>
-       <div className="home h-[100vh] w-[100%] -bg-[red] relative overflow-x-hidden">
+       <div className="home h-[100vh] w-[100%] -bg-[red] bg-[--primary] relative overflow-x-hidden">
       <Nav/>
       <div className='side-nav flex flex-col justify-between py-[30px] px-[10px] h-[100vh] w-[300px] bg-[#0d0d0d] fixed top-[0] right-[0] z-[9] translate-x-[130%]'>
             <div className="-nav-right flex flex-col gap-[20px]">

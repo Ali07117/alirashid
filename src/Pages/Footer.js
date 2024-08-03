@@ -1,14 +1,18 @@
 import React from 'react';
 import Eyes from '../Components/Eyes';
+import String from '../Components/String';
 
 function Footer() {
   return (
     <>
     <div className='-min-h-[100vh] web-footer w-[100%] bg-[--secondry]'>
     <div className="footer-upper-section px-[100px]  -border-t pt-[100px]">
-        <div className='footer-got-project-text border-b-[1px] border-b-[--primary] pb-[70px]'>
+        <div className='footer-got-project-text -border-b-[1px] -border-b-[--primary] -pb-[70px]'>
             <i className='text-[--primary-text]'>That's all for now:</i>
             <p className='text-[--primary-text] text-[40px] footer-engaging-text font-[400] mt-[10px] '>Got a project in mind? <br /> Let’s talk</p>
+            {/* ------ */}
+            <String/>
+            {/* ------ */}
         </div>
         <div className='footer-contact-container w-[60%] flex justify-between pt-[60px]'>
             <span>
