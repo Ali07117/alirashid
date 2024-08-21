@@ -44,7 +44,7 @@ function Nav() {
                 <p className='text-[--secondry-text] font-[500]'>Pakistan</p>
             </span>
             </div>
-            <img className='burger cursor-pointer h-[30px] pr-[10px] hidden' src="./assets/burgernew.svg" alt="" />
+            <img className='burger cursor-pointer h-[30px] pr-[10px] hidden' src="/burgernew.svg" alt="" />
         </div>
     </>
   );
