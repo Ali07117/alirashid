@@ -8,7 +8,7 @@ function Home() {
       <Nav/>
       <div className='side-nav flex flex-col justify-between py-[30px] px-[10px] h-[100vh] w-[300px] bg-[#0d0d0d] fixed top-[0] right-[0] z-[9] translate-x-[130%]'>
             <div className="-nav-right flex flex-col gap-[20px]">
-            <img className='cursor-pointer h-[30px] side-nav-close-arrow' src="/sidenav-close.svg" alt="" />
+            <img className='cursor-pointer h-[30px] side-nav-close-arrow' src="/sidenav-closenew.svg" alt="" />
             <div className=' border-b status-box-sidebar translate-x-[120%]'>
                 <i className='text-[--secondry-text]'>Status:</i>
                 <p className='text-[--secondry-text] font-[500]'>Available for freelance projects</p>

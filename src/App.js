@@ -228,12 +228,12 @@ function App() {
     duration:0.8
   },"a")
   tl.to(".loder-upper-container",{
-    transform:"translateY(-120%)",
-    duration:0.8
+    transform:"translateY(-200%)",
+    duration:1.8
   },"b")
   tl.to(".loder-lower-container",{
-    transform:"translateY(120%)",
-    duration:0.8
+    transform:"translateY(200%)",
+    duration:1.8
   },"b")
 
 
