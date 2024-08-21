@@ -4,7 +4,7 @@ export const elementdata = [
         "brand": "SUNDOWN",
         "branddesc": "Greate animated project. Through this project, I've honed my skills in coding, design, and creating engaging user experences.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, React js, Smooth scroll and animated libraries",
-        "hoverimg": "./assets/sundownlogo.svg",
+        "hoverimg": "/assets/sundownlogo.svg",
         "websitelink": "https://sundown-wine.vercel.app/",
     },
     {
