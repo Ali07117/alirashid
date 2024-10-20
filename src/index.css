@@ -132,6 +132,7 @@
 
 /* -----loader--------- */
 
-/* .skill-container{
+ /* .skill-container */
 
-} */
+  @media screen and (max-width: 450px) {.skill-container{padding-left: 30px; padding-right: 30px;}}
+  
