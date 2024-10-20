@@ -17,6 +17,14 @@ export const elementdata = [
     },
     {
         "id": 3,
+        "brand": "Continuum",
+        "branddesc": "Greate project, greate expericence.",
+        "brandused": "HTML, CSS, Tailwind CSS Javascript, Next js, animated libraries",
+        "hoverimg": "/continuum.svg",
+        "websitelink": "https://continuumtest.vercel.app/",
+    },
+    {
+        "id": 4,
         "brand": "McCann",
         "branddesc": "Created an engaging UI project McCann, Integrating modern design principles with intuitive user experience.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, React js, Scroll-base animation and Smooth scroll",
@@ -24,7 +32,7 @@ export const elementdata = [
         "websitelink": "https://mccann-seven.vercel.app/",
     },
     {
-        "id": 4,
+        "id": 5,
         "brand": "QRUIL",
         "branddesc": "One of the greatest project i have ever done with USA client on fiverr.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, React js and (some other libraries)",
@@ -32,7 +40,7 @@ export const elementdata = [
         "websitelink": "https://qruil.com/landing",
     },
     {
-        "id": 5,
+        "id": 6,
         "brand": "FUT NEXT",
         "branddesc": "Developed a clean and responsive UI for FUT NEXT, enhancing user interaction and overall experience.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, Next js and (some other libraries)",
