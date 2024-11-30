@@ -17,9 +17,9 @@ function SomeProjects() {
       <p className='some-projects-para-2 font-[200] w-[90%]'>These are some projects that I have worked on and enjoy the most. but I'd be happy to share more about the other projects I've done. Would you like to take a look at them?</p>
       <span className='flex items-center gap-[10px] mt-[15px] some-projects-para-2'>
         <p className='text-[--primary-text] text-[20px]'>All Projects</p>
-        <div className='all-projects-circle h-[60px] w-[60px] rounded-full border-[1px] border-[--primary] flex items-center justify-center'>
+        <a target='blank' href="https://docs.google.com/document/d/1G1oeCMxX6njb4rSzkzN4en3bZqRWJe_iSXFSpSZWAwY/edit?usp=sharing"><div className='all-projects-circle h-[60px] w-[60px] rounded-full border-[1px] border-[--primary] flex items-center justify-center'>
           <p className='text-[24px] rotate-[-45deg] relative'>-></p>
-        </div>
+        </div></a>
       </span>
       </span>
     </div>
