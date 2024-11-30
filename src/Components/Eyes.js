@@ -1,19 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-function Eyes() {
-    const [rotate, setRotate] = useState(0)
-  useEffect(()=>{
-    window.addEventListener("mousemove",(e)=>{
-      let mouseX = e.clientX;
-      let mouseY = e.clientY;
-
-      let deltaX = mouseX - window.innerWidth/2;
-      let deltaY = mouseY - window.innerHeight/2;
-
-      var angle = Math.atan2(deltaY, deltaX) * (180/Math.PI);
-      setRotate(angle-180);
-    })
-  })
+function Eyes( {rotate}) {
+    
   return (
     <>
         <div className='h-[200px] ddd w-[100%] -bg-[blue] flex justify-center items-center'>

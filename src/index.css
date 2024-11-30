@@ -24,6 +24,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+textarea {
+  resize: none;
+}
+
 .marque{
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.12) 50%, rgba(255, 255, 255, 0.2) 100%);
 }

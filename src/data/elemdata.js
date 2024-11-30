@@ -17,7 +17,7 @@ export const elementdata = [
     },
     {
         "id": 3,
-        "brand": "Continuum",
+        "brand": "CONTINUNM",
         "branddesc": "Greate project, greate expericence.",
         "brandused": "HTML, CSS, Tailwind CSS Javascript, Next js, animated libraries",
         "hoverimg": "/continuum.svg",
