@@ -43,8 +43,10 @@ function Home() {
             </div>
             </div>
             <div className='flex flex-col -personal-links-box personal-links-sidebar circle-scale inline-block translate-x-[120%]'>
-            <a className='email-text text-[--secondry]' href="mailto:alirashiddev@gmail.com">alirashiddev@gmail.com</a>
-            <p className='number-text text-[--secondry]'>+923267751511</p>
+            {/* <a className='email-text text-[--secondry]' href="mailto:alirashiddev@gmail.com">alirashiddev@gmail.com</a> */}
+            <a className='email-text text-[--secondry]' href="mailto:alirashiddev@gmail.com">alirashid.edu.pk@gmail.com</a>
+            {/* <p className='number-text text-[--secondry]'>+923267751511</p> */}
+            <p className='number-text text-[--secondry]'>+923357475770</p>
             <span className='social-box'>
             <a className='text-[--secondry] ' href="">Instagram,</a>
             <a className='text-[--secondry] ' href=""> Linkedin</a>
@@ -70,8 +72,10 @@ function Home() {
         </p>
         </span>
         <span className='flex flex-col personal-links-box circle-scale inline-block'>
-            <a className='email-text text-[--secondry]' href="mailto:alirashiddev@gmail.com">alirashiddev@gmail.com</a>
-            <p className='number-text text-[--secondry]'>+923267751511</p>
+            {/* <a className='email-text text-[--secondry]' href="mailto:alirashiddev@gmail.com">alirashiddev@gmail.com</a> */}
+            <a className='email-text text-[--secondry]' href="mailto:alirashiddev@gmail.com">alirashid.edu.pk@gmail.com</a>
+            {/* <p className='number-text text-[--secondry]'>+923267751511</p> */}
+            <p className='number-text text-[--secondry]'>+923357475770</p>
             <span className='social-box'>
             <a className='text-[--secondry] ' href="">Instagram,</a>
             <a className='text-[--secondry] ' href=""> Linkedin</a>
