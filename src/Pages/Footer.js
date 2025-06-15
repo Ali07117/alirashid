@@ -91,11 +91,13 @@ function Footer() {
           <div className='footer-contact-container w-[60%] flex justify-between pt-[60px]'>
             <span>
               <p className='text-[grey] font-[200]'>Email address:</p>
-              <a className='text-[--primary] font-[300]' href="mailto:alirashiddev@gmail.com">alirashiddev@gmail.com</a>
+              {/* <a className='text-[--primary] font-[300]' href="mailto:alirashiddev@gmail.com">alirashiddev@gmail.com</a> */}
+              <a className='text-[--primary] font-[300]' href="mailto:alirashiddev@gmail.com">alirashid.edu.pk@gmail.com</a>
             </span>
             <span>
               <p className='text-[grey] font-[200]'>Phone number:</p>
-              <p className='text-[--primary] font-[300]'>+923267751511</p>
+              {/* <p className='text-[--primary] font-[300]'>+923267751511</p> */}
+              <p className='text-[--primary] font-[300]'>+923357475770</p>
             </span>
             <span>
               <p className='text-[grey] font-[200]'>Social:</p>
